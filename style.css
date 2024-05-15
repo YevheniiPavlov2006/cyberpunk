@@ -105,8 +105,9 @@ body{
   cursor: pointer;
   transition: 0.3s;
 }
+
 .Yellow_block__button:hover {
-  background-color: #222;
+  box-shadow: 1px 2px 3px #777777;
 }
 
 .text__container{
@@ -210,14 +211,16 @@ body{
 .signUp__block__column{
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 20px;
 }
 
 .singUp__block__line{
   width: 400px;
+  height: 50px;
+  background-color: #000000;
+  border-bottom: solid 3px #777777;
+  padding-left: 10px;
   color: #777777;
-  border-bottom: #777777 solid 1px;
-  padding-bottom: 5px;
 }
 
 .signUp__block__add_screen{
@@ -237,11 +240,14 @@ body{
   border: none;
 }
 
+.signUp__button:hover{
+  box-shadow: 1px 3px 3px #777777;
+}
+
 .singUp__agree{
   display: flex;
   gap: 10px;
   color: #777777;
-  margin-top: -15px;
 }
 
 .signUp__agree__check{
@@ -299,6 +305,10 @@ body{
   width: 160px;
   border: none;
   padding: 15px 20px;
+}
+
+.promo__button:hover{
+  box-shadow: 1px 3px 3px #777777;
 }
 
 .last__screen{
