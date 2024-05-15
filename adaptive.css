@@ -198,15 +198,16 @@
   }
   .Yellow_block__adaptive{
     opacity: 1;
-    padding: 5px;
+    padding: 15px 10px;
     width: 70%;
     margin-left: 15%;
+    bottom: 0;
   }
   .Yellow_block__text{
     font-size: 24px;
   }
   .main__bkg{
-    width: 350%;
+    width: 300%;
     margin-left: -75%;
   }
   .main__screen{
