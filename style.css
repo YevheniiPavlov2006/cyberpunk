@@ -66,6 +66,18 @@ body{
   position: absolute;
   background-image: url(img/Rectangle\ 59\ \(1\).png);
   background-size: cover;
+  opacity: 1;
+}
+
+.Yellow_block__adaptive{
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  background-color: #F8F200;
+  padding: 20px;
+  text-align: center;
+  margin-left: 25%;
+  opacity: 0;
 }
 
 .Yellow_block__contain{
